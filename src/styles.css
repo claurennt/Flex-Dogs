@@ -30,7 +30,7 @@ header {
 }
 
 img:not(#logo) {
-  object-fit: contain;
+  object-fit: scale-down;
   border: 3px blueviolet solid;
 }
 
