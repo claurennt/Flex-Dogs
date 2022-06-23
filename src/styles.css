@@ -1,0 +1,112 @@
+body {
+  font-size: 2rem;
+}
+section {
+  font-size: 1.4rem;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 5px;
+  color: deeppink;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+section h3 {
+  margin-bottom: 0;
+  font-size: larger;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+#logo {
+  width: 5%;
+  margin: 0 auto;
+}
+
+img:not(#logo) {
+  object-fit: cover;
+  border: 3px blueviolet solid;
+}
+
+:where(div) img:hover {
+  cursor: pointer;
+  filter: opacity(50%);
+}
+
+.opacity {
+  cursor: pointer;
+  filter: opacity(50%);
+}
+
+select {
+  margin: 0 2% 0 0;
+  font-size: large;
+}
+
+label {
+  font-size: larger;
+}
+summary {
+  color: deeppink;
+
+  margin: 10px 0 5px 0;
+}
+summary span {
+  border: 2px solid deeppink;
+  border-radius: 20%;
+  padding: 2px 9px;
+}
+
+.flex-container {
+  margin-top: 100px;
+  border: 10px yellow solid;
+  height: 1000px;
+  display: flex;
+}
+
+.flex-item {
+  width: 5em;
+  height: 5em;
+}
+
+#id {
+  margin-right: auto;
+}
+
+#margin-vertical,
+#margin-horizontal {
+  display: flex;
+  font-size: 1rem;
+  align-content: baseline;
+}
+
+.margins {
+  display: inline-block;
+  position: absolute;
+}
+
+#reset {
+  margin-top: 4%;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 2090px) {
+  .margins {
+    display: block;
+  }
+  #margin-info {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1868px) {
+  select {
+    margin: 10px;
+  }
+}
