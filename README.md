@@ -1,5 +1,5 @@
 # Flex-Dogs
-## A flex box Playground
+## A flex box Playground built with VanillaJS, CSS and DOM-Manipulation.
 
 View in [Github Pages](https://claurennt.github.io/Flex-Dogs/)
 
